@@ -1,4 +1,4 @@
-31 Cloud Foundry Java Buildpack
+3 Cloud Foundry Java Buildpack
 # Copyright 2013-2017 the original author or authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +17,7 @@
 # If Java 7 is required, permgen will be used instead of metaspace. Please see the documentation for more detail.
 ---
 jre:
-  version: 1.8.0_311
+  version: 1.8.0_31
   repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 jvmkill_agent:
   version: 1.+
